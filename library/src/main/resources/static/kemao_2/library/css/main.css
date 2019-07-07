@@ -1,0 +1,40 @@
+.item {
+	display: table;
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+}
+
+.item img {
+	width: 50px;
+}
+
+.item .col-1 {
+	float: left;
+	width: 8%;
+}
+
+.item .col-10 {
+	float: left;
+	width: 83%;
+}
+
+.buttons {
+	padding-top: 13px;
+}
+
+.button {
+	padding: 5px 13px;
+	border-radius: 30px;
+	background-color: #aaa;
+	border: 1px solid #aaa;
+}
+
+.button:hover {
+	background-color: #fff;
+	cursor: pointer;
+}
+
+.item .remove {
+	float: right;
+	border: 1px solid #aaa;
+}

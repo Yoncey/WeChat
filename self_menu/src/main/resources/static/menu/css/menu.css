@@ -1,0 +1,118 @@
+body {
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
+		Roboto, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB",
+		"Microsoft YaHei", sans-serif;
+	margin: 0;
+}
+
+.main-container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	padding: 0px;
+}
+
+.wechat-container {
+	height: 400px;
+	border: 1px solid #eee;
+	display: inline-block;
+	width: 350px;
+}
+
+.property-container {
+	float: right;
+	width: 440px;
+	height: 400px;
+	border: 1px solid #eee;
+	display: inline-block;
+}
+
+.wechat-container .content-container {
+	float: left;
+	width: 100%;
+}
+
+.wechat-container .menus {
+	display: table;
+	float: left;
+	position: absolute;
+	width: 350px;
+	height: 400px;
+	padding: 0px;
+	float: left;
+}
+
+.wechat-container .menus .menu {
+	display: table-cell;
+	height: 100%;
+	width: 33%;
+	text-align: center;
+}
+
+.wechat-container .menus .menu .sub-menu {
+	float: left;
+	width: 33%;
+	bottom: 37px;
+	position: absolute;
+}
+
+.wechat-container .menus .menu .button {
+	position: absolute;
+	bottom: 0px;
+	height: 25px;
+	width: 33%;
+	text-align: center;
+	border: 1px solid #aaa;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	cursor: pointer;
+}
+
+.wechat-container .menus .menu .sub-menu ul {
+	list-style: none;
+	padding: 0px;
+	margin-bottom: 0px;
+	border-bottom: 1px solid rgba(170, 170, 170, 0.3);
+}
+
+.wechat-container .menus .menu .sub-menu ul li {
+	text-align: left;
+	border: 1px solid rgba(170, 170, 170, 0.1);
+	background-color: rgba(150, 150, 150, 0.1);
+	cursor: pointer;
+	padding: 5px;
+}
+
+.wechat-container .menus .menu .sub-menu ul li:hover {
+	background-color: rgba(220, 220, 220, 0.1);
+}
+
+.wechat-container .menus .menu .sub-menu ul li.currentMenu {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.wechat-container .menus .menu .button.currentMenu {
+	background-color: rgba(120, 120, 120, 0.1);
+}
+
+.down-arrow {
+	bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	border-top-color: rgba(0, 0, 0, .1);
+	border-top-width: 11px;
+	border-left-width: 11px;
+	border-right-width: 11px;
+	border-left-color: rgba(0, 0, 0, 0);
+	border-right-color: rgba(0, 0, 0, 0);
+	border-bottom-width: 0;
+	display: block;
+	width: 0;
+	height: 0;
+	border-style: solid;
+}
+
+.property-container .type label {
+	display: block;
+	margin-bottom: 5px;
+}

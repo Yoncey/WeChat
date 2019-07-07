@@ -1,0 +1,16 @@
+mvn install
+cd kemao_2
+mvn  spring-boot:start
+cd ..
+cd subscribe
+mvn  spring-boot:start
+cd ..
+cd unsubscribe
+mvn  spring-boot:start
+cd ..
+cd self_menu
+mvn  spring-boot:start
+cd ..
+cd library
+mvn  spring-boot:start
+cd ..
